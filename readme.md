@@ -16,7 +16,7 @@ Solution below..
  
  int main(){
 
-    //Something like Structure
+    //Something like this Structure
  }
 
 Feel free to explore, learn and contribute. Happy coding!
