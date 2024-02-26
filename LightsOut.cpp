@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
-#define TestCase int t; cin>>t; while(t--)
 using namespace std;
+#define TestCase int t; cin>>t; while(t--)
+define N int n;cin>n;
 int main(){
- 
-   int n;
-   cin>>n;
+TestCase{
 
 
 }
