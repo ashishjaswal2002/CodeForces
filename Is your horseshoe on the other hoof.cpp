@@ -36,7 +36,53 @@ int main() {
     
       int s1,s2,s3,s4;
       cin>>s1>>s2>>s3>>s4;
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+       int n = nums.size();
+       int j= -1;
+       for(int i=0;i<n;i++){
+         if(nums[i]==0){
+            j=i;
+            break;
+            }
+       }
 
+       if(j!=-1){
+         for(int i=j+1;j<n-1;j++){
+            if(nums[i]!=0){
+                swap(nums[i],nums[j]);
+                j++;
+            }
+         }
+       }
+
+
+    }
+};class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+       int n = nums.size();
+       int j= -1;
+       for(int i=0;i<n;i++){
+         if(nums[i]==0){
+            j=i;
+            break;
+            }
+       }
+
+       if(j!=-1){
+         for(int i=j+1;j<n-1;j++){
+            if(nums[i]!=0){
+                swap(nums[i],nums[j]);
+                j++;
+            }
+         }
+       }
+
+
+    }
+};
       vector<int> v;
 
       v.push_back(s1);
