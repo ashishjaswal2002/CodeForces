@@ -1,25 +1,12 @@
-
-
-  #include <iostream>
-
+#include<bits/stdc++.h>
+#define TestCase int t; cin>>t; while(t--)
 using namespace std;
+int main(){
+ ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+cout.tie(NULL); 
+   int n;
+   cin>>n;
 
-int main() {
-    int n;
-    cin >> n;
-    int x = 0, y = 0, z = 0;
-    while (n-- >= 1) {
-        int force_x, force_y, force_z;
-        cin >> force_x >> force_y >> force_z;
-        x += force_x;
-        y += force_y;
-        z += force_z;
-    }
-    if (x == 0 && y == 0 && z == 0) {
-        cout << "YES" << endl;
-    } else {
-        cout << "NO" << endl;
-    }
-    return 0;
+
 }
-
